@@ -1,7 +1,7 @@
 <template>
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
   <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
-  <!-- <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer> -->
+  <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer>
   <DigitSpan v-else-if="!digitEnded" :callback="() => digitEnded = true"></DigitSpan>
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
 </template>
