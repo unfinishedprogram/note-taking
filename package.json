@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "host": "npm run build && python3 server.py"
   },
   "dependencies": {
     "vue": "^3.0.0",
