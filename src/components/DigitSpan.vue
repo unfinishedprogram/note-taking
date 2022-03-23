@@ -4,12 +4,22 @@
 	</div>
 	<input v-if="!showDigits || ended" class="input_digits" type="text" v-model="inputDigits" @input="validateInput()" ref="numinput">
 	<div v-if="ended" class="digits">
-		Game Over
+		Result: {{digits.length}}
+		<br>
+		<button class="confirm" @click="() => callback()">
+			Continue
+		</button>
 	</div>
 </template>
 
 <script lang="ts">
-import { Vue } from "vue-class-component";
+import { Options, Vue } from "vue-class-component";
+
+@Options({
+	props:{
+		callback:Function
+	}
+})
 
 export default class DigitSpan extends Vue {
 	showDigits = false;
@@ -32,6 +42,7 @@ export default class DigitSpan extends Vue {
 				removeEventListener("keydown", enterPress);
 				if(this.inputDigits != this.digits) {
 					this.ended = true;
+					setTimeout
 				} else {
 					this.showNumber();
 				}
@@ -75,5 +86,9 @@ export default class DigitSpan extends Vue {
 
 .input_digits:focus {
 	outline:none !important;
+}
+
+.button {
+	
 }
 </style>

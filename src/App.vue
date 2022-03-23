@@ -1,9 +1,8 @@
 <template>
-  <!-- <DigitSpan></DigitSpan> -->
-
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
-  <!-- <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm> -->
+  <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
   <!-- <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer> -->
+  <DigitSpan v-else-if="!digitEnded" :callback="() => digitEnded = true"></DigitSpan>
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
 </template>
 
@@ -32,6 +31,7 @@ export default class App extends Vue {
   acceptedConsent = false;
   playingAudio = false;
   audioEnded = false;
+  digitEnded = false;
   metadata = metadata;
   
   quiz = quizInstance;
