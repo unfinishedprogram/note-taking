@@ -1,8 +1,9 @@
-# note-taking
+# Note Taking methods Intro to Reseach in Neuroscience Project
 
-## Project setup
+## To run:
 ```
-npm install
+npm i
+npm run serve
 ```
 
 ### Compiles and hot-reloads for development
@@ -14,6 +15,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
