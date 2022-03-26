@@ -7,6 +7,9 @@ export interface IMetadata {
 
 	user_agent:string;
 
+	digit_span_time_taken?:number;
+	digit_span_score?:number;
+
 	meta_created?:number;
 	started_quiz?:number;
 	submitted_quiz?:number;

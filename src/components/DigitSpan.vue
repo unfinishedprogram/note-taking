@@ -6,13 +6,24 @@
 	<div v-if="ended" class="digits">
 		Result: {{digits.length}}
 		<br>
-		<button class="confirm" @click="() => callback()">
+		<button class="confirm" @click="() => this.continue()">
 			Continue
 		</button>
+	</div>
+	<div class="heart_container">
+		<img v-if="lives < 1" src="../assets/heartEmpty.svg" alt="">
+		<img v-else src="../assets/heartFull.svg" alt="">
+
+		<img v-if="lives < 2" src="../assets/heartEmpty.svg" alt="">
+		<img v-else src="../assets/heartFull.svg" alt="">
+
+		<img v-if="lives < 3" src="../assets/heartEmpty.svg" alt="">
+		<img v-else src="../assets/heartFull.svg" alt="">
 	</div>
 </template>
 
 <script lang="ts">
+import metadata from "@/metadata";
 import { Options, Vue } from "vue-class-component";
 
 @Options({
@@ -27,22 +38,36 @@ export default class DigitSpan extends Vue {
 	inputDigits = "";
 	ended = false;
 
+	startTime = 0;
+	lives = 3;
+
 	validateInput() {
 		this.inputDigits = this.inputDigits.replace(/[^\d]/, '');
+	}
+
+	continue() {
+		metadata.digit_span_time_taken = Date.now() - this.startTime;
+		metadata.digit_span_score = this.digits.length;
+
+		(this.$props as any).callback();
 	}
 
 	showInput() {
 		this.showDigits = false;
 		this.inputDigits = "";
+
+		// Must wait for element to be rendered to focus
 		setTimeout(() => (this.$refs.numinput as any).focus())
 		
-		// (this.$refs.numinput as any).focus();
 		const enterPress = (e: KeyboardEvent) => {
 			if(e.key == "Enter") {
 				removeEventListener("keydown", enterPress);
 				if(this.inputDigits != this.digits) {
-					this.ended = true;
-					setTimeout
+					if(--this.lives == 0){
+						this.ended = true;
+					} else {
+						this.showNumber();
+					}
 				} else {
 					this.showNumber();
 				}
@@ -59,6 +84,7 @@ export default class DigitSpan extends Vue {
 	}
 
 	mounted() {
+		this.startTime = Date.now();
 		this.showNumber();
 	}
 }
@@ -88,7 +114,12 @@ export default class DigitSpan extends Vue {
 	outline:none !important;
 }
 
-.button {
-	
+.heart_container {
+	display: flex;
+	justify-content: center;
+}
+
+.heart_container > img {
+	height: 2rem;
 }
 </style>

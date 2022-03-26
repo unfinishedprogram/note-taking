@@ -13,7 +13,7 @@ import ConsentForm from './components/ConsentForm.vue';
 import AudioPlayer from './components/AudioPlayer.vue';
 import QuestionForm from './components/QuestionForm.vue';
 import ThankYou from './components/ThankYou.vue';
-import DigitSpan from './components/DigitSpan.vue'
+import DigitSpan from './components/DigitSpan.vue';
 
 import { quizInstance } from "@/quiz"
 import metadata from './metadata';
