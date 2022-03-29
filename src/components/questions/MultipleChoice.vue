@@ -3,7 +3,6 @@
 		<p class="questiontext">
 			{{question.question}}
 		</p>
-
 		<span v-for="option in question.options" :key="option">
 			<input 
 				:name="id"
@@ -12,6 +11,7 @@
 				:id="id + option"
 				@change="toggleBox"
 				v-model="question.answers[0]"
+				required
 			>
 			<label :for="id + option">
 				{{option}}

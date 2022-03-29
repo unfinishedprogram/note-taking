@@ -17,6 +17,7 @@ import DigitSpan from './components/DigitSpan.vue';
 
 import { quizInstance } from "@/quiz"
 import metadata from './metadata';
+
 @Options({
   components: {
     ConsentForm,
@@ -33,7 +34,7 @@ export default class App extends Vue {
   audioEnded = false;
   digitEnded = false;
   metadata = metadata;
-  
+
   quiz = quizInstance;
 
   consentCallback() {

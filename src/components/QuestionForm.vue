@@ -1,6 +1,6 @@
 <template>
   <div class="questionForm">
-    <form>
+    <form ref="form">
       <Question v-for="(question, id) in quiz.questions" :key='id' :id='id' :question='question'></Question>
       <button class="submit confirm" @click="doSubmit">submit</button>
     </form>
@@ -28,6 +28,13 @@ export default class QuestionForm extends Vue {
 
   async doSubmit(e:any) {
     e.preventDefault()
+
+    let form = (this.$refs.form as HTMLFormElement);
+    
+    if(!form.checkValidity()) {
+      form.reportValidity();
+      return false;
+    }
     const questions = (this.$props as any).quiz.getQuestions();
     metadata.submitted_quiz = Date.now();
     metadata.time_taking_quiz = metadata.submitted_quiz - metadata.started_quiz!;
