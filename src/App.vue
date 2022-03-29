@@ -69,7 +69,7 @@ button.confirm {
   padding: 1rem;
   letter-spacing: .5px;
   cursor:pointer;
-  font-size: 1.25rem;
+  font-size: 16px;
   border: none;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 0.2rem;
@@ -82,7 +82,7 @@ button.confirm:hover {
 }
 
 input, select {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #app {
@@ -95,6 +95,6 @@ input, select {
   border-radius: 0.25rem;
   padding: 2rem;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  font-size: 14px;
 }
 </style>
