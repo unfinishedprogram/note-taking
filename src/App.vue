@@ -1,9 +1,9 @@
 <template>
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
   <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
-  <QuietAssert v-else-if="!quietConfirmed" :callback="() => quietCallback()"></QuietAssert>
-  <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer>
-  <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan>
+  <!-- <QuietAssert v-else-if="!quietConfirmed" :callback="() => quietCallback()"></QuietAssert> -->
+  <!-- <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer> -->
+  <!-- <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan> -->
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
 </template>
 

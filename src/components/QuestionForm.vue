@@ -1,6 +1,14 @@
 <template>
   <div class="questionForm">
-    <form ref="form">
+    <div class="explain" v-if="!descriptionRead">
+      <p>
+        The following is a multiple choice quiz. 
+        Each question has only one correct response.
+      </p>
+      <button class="confirm submit" @click="descriptionReadCallback">continue</button>
+    </div>
+
+    <form ref="form" v-if="descriptionRead">
       <div v-if="questionIndex < quiz.questions.length">
         <b>Question #{{questionIndex+1}}</b>
         <Question :question="quiz.questions[questionIndex]" :id="questionIndex"></Question>
@@ -29,10 +37,16 @@ import metadata, { saveMeta } from "@/metadata"
 export default class QuestionForm extends Vue {
   msg!: string;
   questionIndex:number = 0;
+  descriptionRead:boolean = false;
 
   nextQuestion (e:Event) {
     e.preventDefault();
     this.questionIndex++;
+  }
+
+  descriptionReadCallback(e:Event) {
+    e.preventDefault();
+    this.descriptionRead = true;
   }
 
   async doSubmit(e:any) {
