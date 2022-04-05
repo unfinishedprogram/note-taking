@@ -1,19 +1,22 @@
 <template>
   <div class="questionForm">
     <form ref="form">
-      <Question v-for="(question, id) in quiz.questions" :key='id' :id='id' :question='question'></Question>
-      <button class="submit confirm" @click="doSubmit">submit</button>
+      <div v-if="questionIndex < quiz.questions.length">
+        <b>Question #{{questionIndex+1}}</b>
+        <Question :question="quiz.questions[questionIndex]" :id="questionIndex"></Question>
+        <button :disabled="!quiz.questions[questionIndex].answers[0]" class="submit confirm" @click="nextQuestion">next question</button>
+      </div>
+      <button v-else class="submit confirm" @click="doSubmit">submit</button>
     </form>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-
 import Question from "./questions/Question.vue"
 import Quiz from "@/quiz"
 import {sendResults} from "@/networking"
-import metadata, {getUUID, saveMeta} from "@/metadata"
+import metadata, { saveMeta } from "@/metadata"
 
 @Options({
   components: { Question },
@@ -25,6 +28,12 @@ import metadata, {getUUID, saveMeta} from "@/metadata"
 
 export default class QuestionForm extends Vue {
   msg!: string;
+  questionIndex:number = 0;
+
+  nextQuestion (e:Event) {
+    e.preventDefault();
+    this.questionIndex++;
+  }
 
   async doSubmit(e:any) {
     e.preventDefault()
@@ -35,6 +44,7 @@ export default class QuestionForm extends Vue {
       form.reportValidity();
       return false;
     }
+
     const questions = (this.$props as any).quiz.getQuestions();
     metadata.submitted_quiz = Date.now();
     metadata.time_taking_quiz = metadata.submitted_quiz - metadata.started_quiz!;
@@ -50,13 +60,22 @@ export default class QuestionForm extends Vue {
 </script>
 
 <style>
+
 .question {
 	display: flex;
   flex-direction: column;
 }
 
+button:disabled {
+  background-color: #aaa !important;
+  cursor:not-allowed !important;
+}
+
 .question > * {
   margin: 0.5rem;
+}
+button {
+  float:right;
 }
 
 .question > span {
@@ -81,15 +100,3 @@ hr {
 }
 
 </style>
-
-function sendResults(questions: any) {
-  throw new Error('Function not implemented.');
-}
-
-function sendResults(questions: any) {
-  throw new Error('Function not implemented.');
-}
-
-function sendResults(questions: any) {
-  throw new Error('Function not implemented.');
-}

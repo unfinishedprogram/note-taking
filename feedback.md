@@ -6,6 +6,7 @@
 - [x] Correct consent page to show 4 stories instead of 3
 - [x] Update short consent form from MIRO
 - [ ] Add automated note taking method assignment
+- [ ] Remove auto start from audio
 - [x] Add page to asserts the test should take place in a quiet room with headphones on
 - [ ] Explain that all questions are multiple choice, and have one correct answer
 - [ ] Present multiple choice questions sequentially
