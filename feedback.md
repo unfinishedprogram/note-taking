@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] Explain Sternberg test
+- [x] Explain Digit span test
 - [ ] Correct consent page to show 4 stories instead of 3
 - [ ] Update short consent form from MIRO
 - [ ] Add automated note taking method assignment

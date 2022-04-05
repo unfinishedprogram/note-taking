@@ -12,14 +12,9 @@
 			</button>
 		</div>
 		<div class="heart_container">
-			<img v-if="lives < 1" src="../assets/heartEmpty.svg" alt="">
-			<img v-else src="../assets/heartFull.svg" alt="">
-
-			<img v-if="lives < 2" src="../assets/heartEmpty.svg" alt="">
-			<img v-else src="../assets/heartFull.svg" alt="">
-
-			<img v-if="lives < 3" src="../assets/heartEmpty.svg" alt="">
-			<img v-else src="../assets/heartFull.svg" alt="">
+				{{lives < 1 ? "🖤" : "❤️"}}
+				{{lives < 2 ? "🖤" : "❤️"}}
+				{{lives < 3 ? "🖤" : "❤️"}}
 		</div>
 	</div>
 	<div v-else>
@@ -44,7 +39,7 @@ The procedure ends once you fail to enter the correct number 3 times.
 		</p>
 		<span id="button_container">
 			<i>By pressing <b>continue</b>, you <b>confirm</b> that you have read and understood the above task</i>
-			<button class="confirm">
+			<button class="confirm" @click="() => continueClicked()">
 				Continue
 			</button>
 		</span>
@@ -73,6 +68,12 @@ export default class DigitSpan extends Vue {
 
 	startTime = 0;
 	lives = 3;
+
+	continueClicked() {
+		this.readInstructions = true;
+		this.startTime = Date.now();
+		this.showNumber();
+	}
 
 	validateInput() {
 		this.inputDigits = this.inputDigits.replace(/[^\d]/, '');
@@ -115,11 +116,6 @@ export default class DigitSpan extends Vue {
 		this.showDigits = true;
 		setTimeout(this.showInput.bind(this), 2000);
 	}
-
-	mounted() {
-		this.startTime = Date.now();
-		this.showNumber();
-	}
 }
 
 </script>
@@ -150,11 +146,10 @@ export default class DigitSpan extends Vue {
 .heart_container {
 	display: flex;
 	justify-content: center;
+	font-size: 2rem;
+	user-select: none;
 }
 
-.heart_container > img {
-	height: 2rem;
-}
 #button_container {
 	display: flex;
 	justify-content: space-between;
