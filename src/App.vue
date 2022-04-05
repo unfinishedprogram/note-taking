@@ -1,6 +1,7 @@
 <template>
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
   <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
+  <QuietAssert v-else-if="!quietConfirmed" :callback="() => quietCallback()"></QuietAssert>
   <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer>
   <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan>
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
@@ -13,6 +14,7 @@ import AudioPlayer from './components/AudioPlayer.vue';
 import QuestionForm from './components/QuestionForm.vue';
 import ThankYou from './components/ThankYou.vue';
 import DigitSpan from './components/DigitSpan.vue';
+import QuietAssert from "./components/QuietAssert.vue";
 
 import { quizInstance } from "@/quiz"
 import metadata from './metadata';
@@ -23,7 +25,8 @@ import metadata from './metadata';
     AudioPlayer,
     QuestionForm,
     ThankYou,
-    DigitSpan
+    DigitSpan,
+    QuietAssert
   }
 })
 
@@ -32,6 +35,8 @@ export default class App extends Vue {
   playingAudio = false;
   audioEnded = false;
   digitEnded = false;
+  quietConfirmed = false;
+
   metadata = metadata;
 
   stepIndex = 0;
@@ -48,6 +53,9 @@ export default class App extends Vue {
 
   audioEndCallback() {
     this.audioEnded = true;
+  }
+  quietCallback() {
+    this.quietConfirmed = true;
   }
 }
 

@@ -6,7 +6,7 @@
 - [x] Correct consent page to show 4 stories instead of 3
 - [x] Update short consent form from MIRO
 - [ ] Add automated note taking method assignment
-- [ ] Add page to asserts the test should take place in a quiet room with headphones on
+- [x] Add page to asserts the test should take place in a quiet room with headphones on
 - [ ] Explain that all questions are multiple choice, and have one correct answer
 - [ ] Present multiple choice questions sequentially
 - [ ] Fix typo in question 2 from story 3, (12) to "Which state did she go visit?"
