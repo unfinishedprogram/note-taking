@@ -10,6 +10,8 @@ export interface IMetadata {
 	digit_span_time_taken?:number;
 	digit_span_score?:number;
 
+	note_method?:"typed" | "written" | "none"
+
 	meta_created?:number;
 	started_quiz?:number;
 	submitted_quiz?:number;

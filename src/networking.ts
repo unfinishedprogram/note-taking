@@ -1,7 +1,6 @@
 import metadata, { getUUID } from "./metadata";
 
 export async function sendResults(questions:any){
-	
 	await fetch(`/api/senddata`, {
 		method:"POST",
 		headers: {
@@ -14,4 +13,8 @@ export async function sendResults(questions:any){
 			"questions":questions
 		})
 	})
+}
+export async function getNoteMethod() {
+	let res = await fetch(`/api/getmethod`, { method:"GET"});
+	return await res.text()
 }

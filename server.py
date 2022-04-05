@@ -5,12 +5,13 @@ import random
 
 app = Flask(__name__)
 
-method_buffer = list(["typed", "written", "none"])
+method_buffer = list()
 
 def next_method():
   if(len(method_buffer) == 0):
-    method_buffer = list(["typed", "written", "none"])
-  index = random.randint(0, len(method_buffer))
+    method_buffer.extend(["typed", "written", "none"])
+  
+  index = random.randrange(0, len(method_buffer))
   value = method_buffer[index];
   method_buffer.remove(value);
   return value;

@@ -1,9 +1,10 @@
 <template>
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
   <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
-  <!-- <QuietAssert v-else-if="!quietConfirmed" :callback="() => quietCallback()"></QuietAssert> -->
-  <!-- <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer> -->
-  <!-- <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan> -->
+  <QuietAssert v-else-if="!quietConfirmed" :callback="() => quietCallback()"></QuietAssert>
+  <NoteMethod v-else-if="!assignedMethod" :callback="() => assignMethodCallback()"></NoteMethod>
+  <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer>
+  <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan>
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
 </template>
 
@@ -15,6 +16,7 @@ import QuestionForm from './components/QuestionForm.vue';
 import ThankYou from './components/ThankYou.vue';
 import DigitSpan from './components/DigitSpan.vue';
 import QuietAssert from "./components/QuietAssert.vue";
+import NoteMethod from "./components/NoteMethod.vue";
 
 import { quizInstance } from "@/quiz"
 import metadata from './metadata';
@@ -26,7 +28,8 @@ import metadata from './metadata';
     QuestionForm,
     ThankYou,
     DigitSpan,
-    QuietAssert
+    QuietAssert,
+    NoteMethod
   }
 })
 
@@ -36,12 +39,17 @@ export default class App extends Vue {
   audioEnded = false;
   digitEnded = false;
   quietConfirmed = false;
+  assignedMethod = false;
 
   metadata = metadata;
 
   stepIndex = 0;
 
   quiz = quizInstance;
+
+  assignMethodCallback() {
+    this.assignedMethod = true;
+  }
 
   consentCallback() {
     this.acceptedConsent = true;
