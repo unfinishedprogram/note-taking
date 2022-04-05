@@ -1,7 +1,23 @@
 from flask import Flask, jsonify, request, send_from_directory, send_file
 import json
 import csv
+import random
+
 app = Flask(__name__)
+
+method_buffer = list(["typed", "written", "none"])
+
+def next_method():
+  if(len(method_buffer) == 0):
+    method_buffer = list(["typed", "written", "none"])
+  index = random.randint(0, len(method_buffer))
+  value = method_buffer[index];
+  method_buffer.remove(value);
+  return value;
+
+@app.route('/api/getmethod', methods=['get'])
+def get_method():
+  return next_method();
 
 @app.route('/api/senddata', methods=['POST'])
 def index():
