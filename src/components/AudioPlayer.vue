@@ -35,6 +35,7 @@ import { Options, Vue } from "vue-class-component";
     playedStyle() {
       return `--played-amount:${this.currentTime / this.duration};`;
     },
+
     playbackText() {
       let min_played = String(Math.floor(this.currentTime / 60)).padStart(2, "0");
       let sec_played = String(Math.floor(this.currentTime % 60)).padStart(2, "0");
@@ -110,7 +111,7 @@ export default class AudioPlayer extends Vue {
 
     player.addEventListener("canplay", () => {
       this.duration = player.duration;
-      player.play();
+      // player.play();
     });
   }
 }
