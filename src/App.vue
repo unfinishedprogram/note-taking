@@ -2,10 +2,9 @@
   <ThankYou v-if="metadata.submitted_quiz"></ThankYou>
   <ConsentForm v-else-if="!acceptedConsent" :callback="() => consentCallback()"></ConsentForm>
   <AudioPlayer v-else-if="!audioEnded" :callback="() => audioEndCallback()"></AudioPlayer>
-  <DigitSpan v-else-if="!digitEnded" :callback="() => digitEnded = true"></DigitSpan>
+  <DigitSpan v-else-if="!digitEnded" :callback="() => digitEndCallback()"></DigitSpan>
   <QuestionForm v-else :quiz="quiz"></QuestionForm>
 </template>
-
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
@@ -35,11 +34,16 @@ export default class App extends Vue {
   digitEnded = false;
   metadata = metadata;
 
+  stepIndex = 0;
+
   quiz = quizInstance;
 
   consentCallback() {
-    console.log("Consent callback")
     this.acceptedConsent = true;
+  }
+
+  digitEndCallback() {
+    this.digitEnded = true
   }
 
   audioEndCallback() {
@@ -66,7 +70,7 @@ button.confirm {
   background-color: var(--bg-color);
   color: white;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-  padding: 1rem;
+  padding: 0.75rem;
   letter-spacing: .5px;
   cursor:pointer;
   font-size: 16px;

@@ -1,24 +1,55 @@
 <template>
-  <div v-if="showDigits || ended" class="digits">
-		{{digits}}
-	</div>
-	<input v-if="!showDigits || ended" class="input_digits" type="text" v-model="inputDigits" @input="validateInput()" ref="numinput">
-	<div v-if="ended" class="digits">
-		Result: {{digits.length}}
-		<br>
-		<button class="confirm" @click="() => this.continue()">
-			Continue
-		</button>
-	</div>
-	<div class="heart_container">
-		<img v-if="lives < 1" src="../assets/heartEmpty.svg" alt="">
-		<img v-else src="../assets/heartFull.svg" alt="">
+	<div v-if="readInstructions">
+		<div v-if="showDigits || ended" class="digits">
+			{{digits}}
+		</div>
+		<input v-if="!showDigits || ended" class="input_digits" type="text" v-model="inputDigits" @input="validateInput()" ref="numinput">
+		<div v-if="ended" class="digits">
+			Result: {{digits.length}}
+			<br>
+			<button class="confirm" @click="() => this.continue()">
+				Continue
+			</button>
+		</div>
+		<div class="heart_container">
+			<img v-if="lives < 1" src="../assets/heartEmpty.svg" alt="">
+			<img v-else src="../assets/heartFull.svg" alt="">
 
-		<img v-if="lives < 2" src="../assets/heartEmpty.svg" alt="">
-		<img v-else src="../assets/heartFull.svg" alt="">
+			<img v-if="lives < 2" src="../assets/heartEmpty.svg" alt="">
+			<img v-else src="../assets/heartFull.svg" alt="">
 
-		<img v-if="lives < 3" src="../assets/heartEmpty.svg" alt="">
-		<img v-else src="../assets/heartFull.svg" alt="">
+			<img v-if="lives < 3" src="../assets/heartEmpty.svg" alt="">
+			<img v-else src="../assets/heartFull.svg" alt="">
+		</div>
+	</div>
+	<div v-else>
+		<p>
+The next part of the test is designed to measure your working memory. 
+<br>
+Its intent is to eliminate discrepancies between participants' ability to avoid corrupting with the results.
+<br>
+The task will involve you repeating a series of numbers, with an increasing number of digits.
+<br>
+At each step in the procedure, you will be presented with a number for short period of time.
+once your viewing time has expired a text box will appear.
+<br>
+Please type in the number you saw and press enter to submit your answer.
+If you get it right a digit will be added to the number, and you will be asked to repeat the previous steps.
+<br>
+You have three chances to get the right number, if you get it wrong the number of digits will not increase.
+<br>
+The number of chances you have left is denoted by the three hearts below.
+<br>
+The procedure ends once you fail to enter the correct number 3 times.
+		</p>
+		<span id="button_container">
+			<i>By pressing <b>continue</b>, you <b>confirm</b> that you have read and understood the above task</i>
+			<button class="confirm">
+				Continue
+			</button>
+		</span>
+
+		
 	</div>
 </template>
 
@@ -37,6 +68,8 @@ export default class DigitSpan extends Vue {
 	digits = "";
 	inputDigits = "";
 	ended = false;
+
+	readInstructions = false;
 
 	startTime = 0;
 	lives = 3;
@@ -121,5 +154,9 @@ export default class DigitSpan extends Vue {
 
 .heart_container > img {
 	height: 2rem;
+}
+#button_container {
+	display: flex;
+	justify-content: space-between;
 }
 </style>

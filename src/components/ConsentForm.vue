@@ -26,41 +26,47 @@
     If you have ethical concerns about this study, please email Dr. Hélène Nadeau at
     <a href="mailto:hnadeau@dawsoncollege.qc.a">hnadeau@dawsoncollege.qc.a</a> 
 		<br>
-		<b>
+  </p>
+			<span id="confirm_container">
+				<b>
 			By pressing <i>continue</i> you CONSENT to participating in this research, and confirm have read this informed consent sheet.
 		<br>
 			If you do NOT consent to participating in this research, you may close the tab/window at any time and your information will not be recorded.
 		</b>
-  </p>
 	<button class="continue confirm" @click="callback">continue</button>
+		</span>
+			
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
 @Options({
-	props:{
-		callback:Function
-	}
+  props: {
+    callback: Function,
+  },
 })
-
 export default class ConsentForm extends Vue {}
 </script>
 
 <style scoped>
 br {
-	display: block;
-	margin:1rem;
-	content: " ";
+  display: block;
+  margin: 1rem;
+  content: " ";
 }
 
 ul {
-	padding-left: 0px;
-	list-style: none;
-	margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+  margin-left: 0px;
 }
 
-.continue {
-	float:right;
+
+#confirm_container {
+	display:flex;
+	justify-content: space-between;
+	align-items:flex-end;
 }
+
 </style>
