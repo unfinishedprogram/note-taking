@@ -4,17 +4,17 @@
     and Sammy Péladeau (Dawson College), aims to understand the effects that
     note taking method has on the ability to remember details of a short story.
     <br />
-    As part of this study, you will be asked to answer questions on details of 3
-    short stories. The total time to complete this study is about 20 min.
+    As part of this study, you will be asked to answer questions on details of 4 
+    short stories. The total time to complete this study is about 15 to 20 minutes.
     <br />
-    Some questions in this study may elicit unpleasant feelings. You do not need
-    to answer questions that you don't want to answer or that make you feel
-    uncomfortable. 
+    Some questions in this study may elicit unpleasant feelings. You do not need 
+    to answer questions that you don't want to answer or that make you feel 
+    uncomfortable.
     <br />
-		The information you provide is for research purposes only.
-    Participation is voluntary. You can choose to end this study at any time.
-    Participation is confidential and anonymous; no identifying information will
-    be collected. If you have questions regarding this study, or wish to obtain
+    The information you provide is for research purposes only. 
+    Participation is voluntary. You can choose to end this study at any time. 
+    Participation is confidential and anonymous; no identifying information will 
+    be collected. If you have questions regarding this study, or wish to obtain 
     information about the results of the study please email:
     <br />
 		<ul>
