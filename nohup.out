@@ -1,0 +1,947 @@
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.2.206:80/ (Press CTRL+C to quit)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.2.206:80/ (Press CTRL+C to quit)
+10.230.129.50 - - [29/Mar/2022 08:39:52] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:52] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:52] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:52] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:53] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:54] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:55] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:55] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:55] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:55] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:55] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:39:57] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:02] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:02] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:02] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:02] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:02] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:03] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:03] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:03] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:03] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:03] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:12] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:12] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:12] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:12] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:12] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.2.206:80/ (Press CTRL+C to quit)
+10.230.129.50 - - [29/Mar/2022 08:40:35] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:35] "[36mGET /css/app.26509fb5.css HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:35] "[36mGET /js/app.4795be8c.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:35] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:35] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:37] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:39] "[36mGET /img/pause.8569746c.svg HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:39] "[36mGET /img/play.aef4cc5e.svg HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:39] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.230.129.50 - - [29/Mar/2022 08:40:39] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.129.50 - - [29/Mar/2022 08:40:39] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.49.10.30 - - [30/Mar/2022 15:50:39] "GET / HTTP/1.1" 200 -
+10.49.10.30 - - [30/Mar/2022 15:50:39] "GET /css/app.eaa594f5.css HTTP/1.1" 200 -
+10.49.10.30 - - [30/Mar/2022 15:50:39] "GET /js/chunk-vendors.837c5f14.js HTTP/1.1" 200 -
+10.49.10.30 - - [30/Mar/2022 15:50:39] "GET /js/app.44c35812.js HTTP/1.1" 200 -
+10.49.10.30 - - [30/Mar/2022 15:50:40] "GET /favicon.ico HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:52:21] "GET / HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:52:21] "GET /css/app.eaa594f5.css HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:52:21] "GET /js/app.44c35812.js HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:52:21] "GET /js/chunk-vendors.837c5f14.js HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:52:22] "GET /favicon.ico HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 15:58:52] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 15:58:52] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 15:58:52] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 15:58:52] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:01] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:02] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:02] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:02] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:25] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:25] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:25] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:03:25] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:06:12] "GET /img/pause.8569746c.svg HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 16:06:12] "GET /img/play.aef4cc5e.svg HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 16:06:12] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.230.108.223 - - [30/Mar/2022 16:06:12] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:06:21] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:06:22] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:06:22] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:06:22] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:09:09] "[36mGET /img/pause.8569746c.svg HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:09:09] "[36mGET /img/play.aef4cc5e.svg HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:09:09] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.230.108.223 - - [30/Mar/2022 16:09:10] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:11:18] "GET /img/heartFull.8b238986.svg HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 16:12:13] "GET /img/heartEmpty.32e83bb8.svg HTTP/1.1" 200 -
+{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'options': ['5 Years', '40 Years', '20 Years', '10 Years'], 'correct': ['40 Years'], 'answers': ['5 Years']}
+0
+['5 Years', '40 Years', '20 Years', '10 Years']
+5 Years
+1
+['5 Years', '40 Years', '20 Years', '10 Years']
+40 Years
+2
+['5 Years', '40 Years', '20 Years', '10 Years']
+20 Years
+3
+['5 Years', '40 Years', '20 Years', '10 Years']
+10 Years
+{'type': 'multiple_choice', 'question': 'What state do they live in?', 'options': ['Minnesota', 'Indiana', 'Michigan', 'Washington'], 'correct': ['Washington'], 'answers': ['Minnesota']}
+0
+['Minnesota', 'Indiana', 'Michigan', 'Washington']
+Minnesota
+1
+['Minnesota', 'Indiana', 'Michigan', 'Washington']
+Indiana
+2
+['Minnesota', 'Indiana', 'Michigan', 'Washington']
+Michigan
+3
+['Minnesota', 'Indiana', 'Michigan', 'Washington']
+Washington
+{'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'options': ['Playing chess and swimming', 'Going to church and birdwatching', 'Going for walks and gardening', 'Playing bingo and jogging'], 'correct': ['Going for walks and gardening'], 'answers': ['Going for walks and gardening']}
+0
+['Playing chess and swimming', 'Going to church and birdwatching', 'Going for walks and gardening', 'Playing bingo and jogging']
+Playing chess and swimming
+1
+['Playing chess and swimming', 'Going to church and birdwatching', 'Going for walks and gardening', 'Playing bingo and jogging']
+Going to church and birdwatching
+2
+['Playing chess and swimming', 'Going to church and birdwatching', 'Going for walks and gardening', 'Playing bingo and jogging']
+Going for walks and gardening
+3
+['Playing chess and swimming', 'Going to church and birdwatching', 'Going for walks and gardening', 'Playing bingo and jogging']
+Playing bingo and jogging
+{'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'options': ['Melons', 'Peas', 'Beets', 'Carrots'], 'correct': ['Beets'], 'answers': ['Beets']}
+0
+['Melons', 'Peas', 'Beets', 'Carrots']
+Melons
+1
+['Melons', 'Peas', 'Beets', 'Carrots']
+Peas
+2
+['Melons', 'Peas', 'Beets', 'Carrots']
+Beets
+3
+['Melons', 'Peas', 'Beets', 'Carrots']
+Carrots
+{'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'options': ['Donate it to chairty', 'Make jams and preserves', 'Give it away to friends and family', 'Make pies and cakes'], 'correct': ['Make jams and preserves'], 'answers': ['Make pies and cakes']}
+0
+['Donate it to chairty', 'Make jams and preserves', 'Give it away to friends and family', 'Make pies and cakes']
+Donate it to chairty
+1
+['Donate it to chairty', 'Make jams and preserves', 'Give it away to friends and family', 'Make pies and cakes']
+Make jams and preserves
+2
+['Donate it to chairty', 'Make jams and preserves', 'Give it away to friends and family', 'Make pies and cakes']
+Give it away to friends and family
+3
+['Donate it to chairty', 'Make jams and preserves', 'Give it away to friends and family', 'Make pies and cakes']
+Make pies and cakes
+{'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'options': ['Classmates', 'Brothers', 'Cousins', 'Friends'], 'correct': ['Cousins'], 'answers': ['Brothers']}
+0
+['Classmates', 'Brothers', 'Cousins', 'Friends']
+Classmates
+1
+['Classmates', 'Brothers', 'Cousins', 'Friends']
+Brothers
+2
+['Classmates', 'Brothers', 'Cousins', 'Friends']
+Cousins
+3
+['Classmates', 'Brothers', 'Cousins', 'Friends']
+Friends
+{'type': 'multiple_choice', 'question': 'How old is Liam?', 'options': ['10 years old', '6 years old', '8 years old', '5 years old'], 'correct': ['8 years old'], 'answers': ['6 years old']}
+0
+['10 years old', '6 years old', '8 years old', '5 years old']
+10 years old
+1
+['10 years old', '6 years old', '8 years old', '5 years old']
+6 years old
+2
+['10 years old', '6 years old', '8 years old', '5 years old']
+8 years old
+3
+['10 years old', '6 years old', '8 years old', '5 years old']
+5 years old
+{'type': 'multiple_choice', 'question': "Who's car did they go in?", 'options': ['Uncle Devin', "Liam's father", 'Aunt Sally', "Liam's mother"], 'correct': ['Aunt Sally'], 'answers': ['Aunt Sally']}
+0
+['Uncle Devin', "Liam's father", 'Aunt Sally', "Liam's mother"]
+Uncle Devin
+1
+['Uncle Devin', "Liam's father", 'Aunt Sally', "Liam's mother"]
+Liam's father
+2
+['Uncle Devin', "Liam's father", 'Aunt Sally', "Liam's mother"]
+Aunt Sally
+3
+['Uncle Devin', "Liam's father", 'Aunt Sally', "Liam's mother"]
+Liam's mother
+{'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'options': ['Riding school', 'The playground', 'Cooking school', 'The mall'], 'correct': ['Riding school'], 'answers': ['Riding school']}
+0
+['Riding school', 'The playground', 'Cooking school', 'The mall']
+Riding school
+1
+['Riding school', 'The playground', 'Cooking school', 'The mall']
+The playground
+2
+['Riding school', 'The playground', 'Cooking school', 'The mall']
+Cooking school
+3
+['Riding school', 'The playground', 'Cooking school', 'The mall']
+The mall
+{'type': 'multiple_choice', 'question': 'When did their lesson start?', 'options': ["1 o'clock", 'Noon', "2 o'clock", "3 o'clock"], 'correct': ["3 o'clock"], 'answers': ["2 o'clock"]}
+0
+["1 o'clock", 'Noon', "2 o'clock", "3 o'clock"]
+1 o'clock
+1
+["1 o'clock", 'Noon', "2 o'clock", "3 o'clock"]
+Noon
+2
+["1 o'clock", 'Noon', "2 o'clock", "3 o'clock"]
+2 o'clock
+3
+["1 o'clock", 'Noon', "2 o'clock", "3 o'clock"]
+3 o'clock
+{'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'options': ['Her mother', 'Her brother', 'Her sister', 'Her nephiew'], 'correct': ['Her brother'], 'answers': ['Her nephiew']}
+0
+['Her mother', 'Her brother', 'Her sister', 'Her nephiew']
+Her mother
+1
+['Her mother', 'Her brother', 'Her sister', 'Her nephiew']
+Her brother
+2
+['Her mother', 'Her brother', 'Her sister', 'Her nephiew']
+Her sister
+3
+['Her mother', 'Her brother', 'Her sister', 'Her nephiew']
+Her nephiew
+{'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'options': ['Virginia', 'Louisiana', 'Connecticut', 'Missouri'], 'correct': ['Virginia'], 'answers': ['Connecticut']}
+0
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Virginia
+1
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Louisiana
+2
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Connecticut
+3
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Missouri
+{'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'options': ['The bookstore', 'The library', 'The art musium', 'The gallary'], 'correct': ['The art musium'], 'answers': ['The library']}
+0
+['The bookstore', 'The library', 'The art musium', 'The gallary']
+The bookstore
+1
+['The bookstore', 'The library', 'The art musium', 'The gallary']
+The library
+2
+['The bookstore', 'The library', 'The art musium', 'The gallary']
+The art musium
+3
+['The bookstore', 'The library', 'The art musium', 'The gallary']
+The gallary
+{'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'options': ['On her couch', 'In her car', 'In her brothers appartement', 'On her dresseer'], 'correct': ['On her dresseer'], 'answers': ['In her brothers appartement']}
+0
+['On her couch', 'In her car', 'In her brothers appartement', 'On her dresseer']
+On her couch
+1
+['On her couch', 'In her car', 'In her brothers appartement', 'On her dresseer']
+In her car
+2
+['On her couch', 'In her car', 'In her brothers appartement', 'On her dresseer']
+In her brothers appartement
+3
+['On her couch', 'In her car', 'In her brothers appartement', 'On her dresseer']
+On her dresseer
+{'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'options': ['5 blocks', '2 Blocks', '1 Block', '15 blocks'], 'correct': ['5 blocks'], 'answers': ['2 Blocks']}
+0
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+5 blocks
+1
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+2 Blocks
+2
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+1 Block
+3
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+15 blocks
+{'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'options': ['Monday', 'Tuesday', 'Thursday', 'Friday'], 'correct': ['Tuesday'], 'answers': ['Friday']}10.230.108.223 - - [30/Mar/2022 16:15:01] "POST /api/senddata HTTP/1.1" 200 -
+10.230.108.223 - - [30/Mar/2022 16:15:02] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:02] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:02] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:02] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:02] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:07] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:07] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:07] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:07] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [30/Mar/2022 16:15:07] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:19:55] "GET / HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:55] "GET /css/app.eaa594f5.css HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:55] "GET /js/app.44c35812.js HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:55] "GET /js/chunk-vendors.837c5f14.js HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:55] "GET /favicon.ico HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:59] "GET /img/pause.8569746c.svg HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:59] "GET /img/play.aef4cc5e.svg HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:19:59] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.221.105.75 - - [30/Mar/2022 16:19:59] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:21:15] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.221.105.75 - - [30/Mar/2022 16:22:01] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.221.105.75 - - [30/Mar/2022 16:25:00] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.221.105.75 - - [30/Mar/2022 16:26:30] "GET /img/heartFull.8b238986.svg HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:27:19] "GET /img/heartEmpty.32e83bb8.svg HTTP/1.1" 200 -
+
+0
+['Monday', 'Tuesday', 'Thursday', 'Friday']
+Monday
+1
+['Monday', 'Tuesday', 'Thursday', 'Friday']
+Tuesday
+2
+['Monday', 'Tuesday', 'Thursday', 'Friday']
+Thursday
+3
+['Monday', 'Tuesday', 'Thursday', 'Friday']
+Friday
+{'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'options': ['50%', '75%', '15%', '25%'], 'correct': ['75%'], 'answers': ['15%']}
+0
+['50%', '75%', '15%', '25%']
+50%
+1
+['50%', '75%', '15%', '25%']
+75%
+2
+['50%', '75%', '15%', '25%']
+15%
+3
+['50%', '75%', '15%', '25%']
+25%
+{'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'options': ['60$', '30$', '50$', '100$'], 'correct': ['30$'], 'answers': ['30$']}
+0
+['60$', '30$', '50$', '100$']
+60$
+1
+['60$', '30$', '50$', '100$']
+30$
+2
+['60$', '30$', '50$', '100$']
+50$
+3
+['60$', '30$', '50$', '100$']
+100$
+{'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'options': ['Each other', 'Racks of cloths', 'The employees', 'Carts'], 'correct': ['Each other'], 'answers': ['Racks of cloths']}
+0
+['Each other', 'Racks of cloths', 'The employees', 'Carts']
+Each other
+1
+['Each other', 'Racks of cloths', 'The employees', 'Carts']
+Racks of cloths
+2
+['Each other', 'Racks of cloths', 'The employees', 'Carts']
+The employees
+3
+['Each other', 'Racks of cloths', 'The employees', 'Carts']
+Carts
+{'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'options': ['A bottle of champaign', 'A Gift card', 'A bottle of wine', 'A sincere thank you'], 'correct': ['A bottle of champaign'], 'answers': ['A Gift card']}
+0
+['A bottle of champaign', 'A Gift card', 'A bottle of wine', 'A sincere thank you']
+A bottle of champaign
+1
+['A bottle of champaign', 'A Gift card', 'A bottle of wine', 'A sincere thank you']
+A Gift card
+2
+['A bottle of champaign', 'A Gift card', 'A bottle of wine', 'A sincere thank you']
+A bottle of wine
+3
+['A bottle of champaign', 'A Gift card', 'A bottle of wine', 'A sincere thank you']
+A sincere thank you
+{'id': 'c8dea808', 'metadata': {'uuid': 'c8dea808', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36', 'meta_created': 1648670808382, 'logs': [{'type': 'info', 'message': 'Audio ended'}], 'time_paused': 0, 'times_paused': 0, 'digit_span_time_taken': 151392, 'digit_span_score': 11, 'started_quiz': 1648671256161, 'submitted_quiz': 1648671328452, 'time_taking_quiz': 72291}, 'questions': [{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'correct': '40 Years', 'option1': '5 Years', 'option2': '40 Years', 'option3': '20 Years', 'option4': '10 Years', 'answer': '5 Years'}, {'type': 'multiple_choice', 'question': 'What state do they live in?', 'correct': 'Washington', 'option1': 'Minnesota', 'option2': 'Indiana', 'option3': 'Michigan', 'option4': 'Washington', 'answer': 'Minnesota'}, {'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'correct': 'Going for walks and gardening', 'option1': 'Playing chess and swimming', 'option2': 'Going to church and birdwatching', 'option3': 'Going for walks and gardening', 'option4': 'Playing bingo and jogging', 'answer': 'Going for walks and gardening'}, {'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'correct': 'Beets', 'option1': 'Melons', 'option2': 'Peas', 'option3': 'Beets', 'option4': 'Carrots', 'answer': 'Beets'}, {'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'correct': 'Make jams and preserves', 'option1': 'Donate it to chairty', 'option2': 'Make jams and preserves', 'option3': 'Give it away to friends and family', 'option4': 'Make pies and cakes', 'answer': 'Make pies and cakes'}, {'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'correct': 'Cousins', 'option1': 'Classmates', 'option2': 'Brothers', 'option3': 'Cousins', 'option4': 'Friends', 'answer': 'Brothers'}, {'type': 'multiple_choice', 'question': 'How old is Liam?', 'correct': '8 years old', 'option1': '10 years old', 'option2': '6 years old', 'option3': '8 years old', 'option4': '5 years old', 'answer': '6 years old'}, {'type': 'multiple_choice', 'question': "Who's car did they go in?", 'correct': 'Aunt Sally', 'option1': 'Uncle Devin', 'option2': "Liam's father", 'option3': 'Aunt Sally', 'option4': "Liam's mother", 'answer': 'Aunt Sally'}, {'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'correct': 'Riding school', 'option1': 'Riding school', 'option2': 'The playground', 'option3': 'Cooking school', 'option4': 'The mall', 'answer': 'Riding school'}, {'type': 'multiple_choice', 'question': 'When did their lesson start?', 'correct': "3 o'clock", 'option1': "1 o'clock", 'option2': 'Noon', 'option3': "2 o'clock", 'option4': "3 o'clock", 'answer': "2 o'clock"}, {'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'correct': 'Her brother', 'option1': 'Her mother', 'option2': 'Her brother', 'option3': 'Her sister', 'option4': 'Her nephiew', 'answer': 'Her nephiew'}, {'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'correct': 'Virginia', 'option1': 'Virginia', 'option2': 'Louisiana', 'option3': 'Connecticut', 'option4': 'Missouri', 'answer': 'Connecticut'}, {'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'correct': 'The art musium', 'option1': 'The bookstore', 'option2': 'The library', 'option3': 'The art musium', 'option4': 'The gallary', 'answer': 'The library'}, {'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'correct': 'On her dresseer', 'option1': 'On her couch', 'option2': 'In her car', 'option3': 'In her brothers appartement', 'option4': 'On her dresseer', 'answer': 'In her brothers appartement'}, {'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'correct': '5 blocks', 'option1': '5 blocks', 'option2': '2 Blocks', 'option3': '1 Block', 'option4': '15 blocks', 'answer': '2 Blocks'}, {'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'correct': 'Tuesday', 'option1': 'Monday', 'option2': 'Tuesday', 'option3': 'Thursday', 'option4': 'Friday', 'answer': 'Friday'}, {'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'correct': '75%', 'option1': '50%', 'option2': '75%', 'option3': '15%', 'option4': '25%', 'answer': '15%'}, {'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'correct': '30$', 'option1': '60$', 'option2': '30$', 'option3': '50$', 'option4': '100$', 'answer': '30$'}, {'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'correct': 'Each other', 'option1': 'Each other', 'option2': 'Racks of cloths', 'option3': 'The employees', 'option4': 'Carts', 'answer': 'Racks of cloths'}, {'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'correct': 'A bottle of champaign', 'option1': 'A bottle of champaign', 'option2': 'A Gift card', 'option3': 'A bottle of wine', 'option4': 'A sincere thank you', 'answer': 'A Gift card'}]}
+{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'options': ['5 Years', '40 Years', '20 Years', '10 Years'], 'correct': ['40 Years'], 'answers': ['40 Years']}
+0
+['5 Years', '40 Years', '20 Years', '10 Years']
+5 Years
+1
+['5 Years', '40 Years', '20 Years', '10 Years']
+40 Years
+2
+['5 Years', '40 Years', '20 Years', '10 Years']
+20 Years
+3
+['5 Years', '40 Years', '20 Years', '10 Years']
+10 Years
+{'type': 'multiple_choice', 'question': 'What state do they live in?', 'options': ['Washington', 'Indiana', 'Minnesota', 'Michigan'], 'correct': ['Washington'], 'answers': ['Washington']}
+0
+['Washington', 'Indiana', 'Minnesota', 'Michigan']
+Washington
+1
+['Washington', 'Indiana', 'Minnesota', 'Michigan']
+Indiana
+2
+['Washington', 'Indiana', 'Minnesota', 'Michigan']
+Minnesota
+3
+['Washington', 'Indiana', 'Minnesota', 'Michigan']
+Michigan
+{'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'options': ['Going for walks and gardening', 'Playing bingo and jogging', 'Going to church and birdwatching', 'Playing chess and swimming'], 'correct': ['Going for walks and gardening'], 'answers': ['Going for walks and gardening']}
+0
+['Going for walks and gardening', 'Playing bingo and jogging', 'Going to church and birdwatching', 'Playing chess and swimming']
+Going for walks and gardening
+1
+['Going for walks and gardening', 'Playing bingo and jogging', 'Going to church and birdwatching', 'Playing chess and swimming']
+Playing bingo and jogging
+2
+['Going for walks and gardening', 'Playing bingo and jogging', 'Going to church and birdwatching', 'Playing chess and swimming']
+Going to church and birdwatching
+3
+['Going for walks and gardening', 'Playing bingo and jogging', 'Going to church and birdwatching', 'Playing chess and swimming']
+Playing chess and swimming
+{'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'options': ['Carrots', 'Peas', 'Beets', 'Melons'], 'correct': ['Beets'], 'answers': ['Carrots']}
+0
+['Carrots', 'Peas', 'Beets', 'Melons']
+Carrots
+1
+['Carrots', 'Peas', 'Beets', 'Melons']
+Peas
+2
+['Carrots', 'Peas', 'Beets', 'Melons']
+Beets
+3
+['Carrots', 'Peas', 'Beets', 'Melons']
+Melons
+{'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'options': ['Make pies and cakes', 'Make jams and preserves', 'Donate it to chairty', 'Give it away to friends and family'], 'correct': ['Make jams and preserves'], 'answers': ['Make jams and preserves']}
+0
+['Make pies and cakes', 'Make jams and preserves', 'Donate it to chairty', 'Give it away to friends and family']
+Make pies and cakes
+1
+['Make pies and cakes', 'Make jams and preserves', 'Donate it to chairty', 'Give it away to friends and family']
+Make jams and preserves
+2
+['Make pies and cakes', 'Make jams and preserves', 'Donate it to chairty', 'Give it away to friends and family']
+Donate it to chairty
+3
+['Make pies and cakes', 'Make jams and preserves', 'Donate it to chairty', 'Give it away to friends and family']
+Give it away to friends and family
+{'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'options': ['Brothers', 'Friends', 'Classmates', 'Cousins'], 'correct': ['Cousins'], 'answers': ['Cousins']}
+0
+['Brothers', 'Friends', 'Classmates', 'Cousins']
+Brothers
+1
+['Brothers', 'Friends', 'Classmates', 'Cousins']
+Friends
+2
+['Brothers', 'Friends', 'Classmates', 'Cousins']
+Classmates
+3
+['Brothers', 'Friends', 'Classmates', 'Cousins']
+Cousins
+{'type': 'multiple_choice', 'question': 'How old is Liam?', 'options': ['5 years old', '8 years old', '6 years old', '10 years old'], 'correct': ['8 years old'], 'answers': ['8 years old']}
+0
+['5 years old', '8 years old', '6 years old', '10 years old']
+5 years old
+1
+['5 years old', '8 years old', '6 years old', '10 years old']
+8 years old
+2
+['5 years old', '8 years old', '6 years old', '10 years old']
+6 years old
+3
+['5 years old', '8 years old', '6 years old', '10 years old']
+10 years old
+{'type': 'multiple_choice', 'question': "Who's car did they go in?", 'options': ["Liam's mother", "Liam's father", 'Uncle Devin', 'Aunt Sally'], 'correct': ['Aunt Sally'], 'answers': ['Aunt Sally']}
+0
+["Liam's mother", "Liam's father", 'Uncle Devin', 'Aunt Sally']
+Liam's mother
+1
+["Liam's mother", "Liam's father", 'Uncle Devin', 'Aunt Sally']
+Liam's father
+2
+["Liam's mother", "Liam's father", 'Uncle Devin', 'Aunt Sally']
+Uncle Devin
+3
+["Liam's mother", "Liam's father", 'Uncle Devin', 'Aunt Sally']
+Aunt Sally
+{'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'options': ['The mall', 'Riding school', 'The playground', 'Cooking school'], 'correct': ['Riding school'], 'answers': ['Riding school']}
+0
+['The mall', 'Riding school', 'The playground', 'Cooking school']
+The mall
+1
+['The mall', 'Riding school', 'The playground', 'Cooking school']
+Riding school
+2
+['The mall', 'Riding school', 'The playground', 'Cooking school']
+The playground
+3
+['The mall', 'Riding school', 'The playground', 'Cooking school']
+Cooking school
+{'type': 'multiple_choice', 'question': 'When did their lesson start?', 'options': ["2 o'clock", "3 o'clock", 'Noon', "1 o'clock"], 'correct': ["3 o'clock"], 'answers': ["3 o'clock"]}
+0
+["2 o'clock", "3 o'clock", 'Noon', "1 o'clock"]
+2 o'clock
+1
+["2 o'clock", "3 o'clock", 'Noon', "1 o'clock"]
+3 o'clock
+2
+["2 o'clock", "3 o'clock", 'Noon', "1 o'clock"]
+Noon
+3
+["2 o'clock", "3 o'clock", 'Noon', "1 o'clock"]
+1 o'clock
+{'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'options': ['Her nephiew', 'Her mother', 'Her brother', 'Her sister'], 'correct': ['Her brother'], 'answers': ['Her brother']}
+0
+['Her nephiew', 'Her mother', 'Her brother', 'Her sister']
+Her nephiew
+1
+['Her nephiew', 'Her mother', 'Her brother', 'Her sister']
+Her mother
+2
+['Her nephiew', 'Her mother', 'Her brother', 'Her sister']
+Her brother
+3
+['Her nephiew', 'Her mother', 'Her brother', 'Her sister']
+Her sister
+{'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'options': ['Louisiana', 'Connecticut', 'Missouri', 'Virginia'], 'correct': ['Virginia'], 'answers': ['Virginia']}
+0
+['Louisiana', 'Connecticut', 'Missouri', 'Virginia']
+Louisiana
+1
+['Louisiana', 'Connecticut', 'Missouri', 'Virginia']
+Connecticut
+2
+['Louisiana', 'Connecticut', 'Missouri', 'Virginia']
+Missouri
+3
+['Louisiana', 'Connecticut', 'Missouri', 'Virginia']
+Virginia
+{'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'options': ['The gallary', 'The library', 'The art musium', 'The bookstore'], 'correct': ['The art musium'], 'answers': ['The art musium']}
+0
+['The gallary', 'The library', 'The art musium', 'The bookstore']
+The gallary
+1
+['The gallary', 'The library', 'The art musium', 'The bookstore']
+The library
+2
+['The gallary', 'The library', 'The art musium', 'The bookstore']
+The art musium
+3
+['The gallary', 'The library', 'The art musium', 'The bookstore']
+The bookstore
+{'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'options': ['In her car', 'On her dresseer', 'On her couch', 'In her brothers appartement'], 'correct': ['On her dresseer'], 'answers': ['On her dresseer']}
+0
+['In her car', 'On her dresseer', 'On her couch', 'In her brothers appartement']
+In her car
+1
+['In her car', 'On her dresseer', 'On her couch', 'In her brothers appartement']
+On her dresseer
+2
+['In her car', 'On her dresseer', 'On her couch', 'In her brothers appartement']
+On her couch
+3
+['In her car', 'On her dresseer', 'On her couch', 'In her brothers appartement']
+In her brothers appartement
+{'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'options': ['5 blocks', '2 Blocks', '1 Block', '15 blocks'], 'correct': ['5 blocks'], 'answers': ['5 blocks']}
+0
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+5 blocks
+1
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+2 Blocks
+2
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+1 Block
+3
+['5 blocks', '2 Blocks', '1 Block', '15 blocks']
+15 blocks
+{'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'options': ['Tuesday', 'Monday', 'Thursday', 'Friday'], 'correct': ['Tuesday'], 'answers': ['Tuesday']}
+0
+['Tuesday', 'Monday', 'Thursday', 'Friday']
+Tuesday
+1
+['Tuesday', 'Monday', 'Thursday', 'Friday']
+Monday
+2
+['Tuesday', 'Monday', 'Thursday', 'Friday']
+Thursday
+3
+['Tuesday', 'Monday', 'Thursday', 'Friday']
+Friday
+{'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'options': ['50%', '15%', '25%', '75%'], 'correct': ['75%'], 'answers': ['75%']}
+0
+['50%', '15%', '25%', '75%']
+50%
+1
+['50%', '15%', '25%', '75%']
+15%
+2
+['50%', '15%', '25%', '75%']
+25%
+3
+['50%', '15%', '25%', '75%']
+75%
+{'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'options': ['100$', '30$', '50$', '60$'], 'correct': ['30$'], 'answers': ['30$']}
+0
+['100$', '30$', '50$', '60$']
+100$
+1
+['100$', '30$', '50$', '60$']
+30$
+2
+['100$', '30$', '50$', '60$']
+50$
+3
+['100$', '30$', '50$', '60$']
+60$
+{'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'options': ['Each other', 'Carts', 'The employees', 'Racks of cloths'], 'correct': ['Each other'], 'answers': ['Each other']}
+0
+['Each other', 'Carts', 'The employees', 'Racks of cloths']
+Each other
+1
+['Each other', 'Carts', 'The employees', 'Racks of cloths']10.221.105.75 - - [30/Mar/2022 16:33:02] "POST /api/senddata HTTP/1.1" 200 -
+10.221.105.75 - - [30/Mar/2022 16:33:02] "[36mGET / HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:02] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:02] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:02] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:02] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:03] "[36mGET / HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:03] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:03] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:03] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.221.105.75 - - [30/Mar/2022 16:33:03] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:34:16] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:34:17] "GET /js/app.44c35812.js HTTP/1.1" 200 -
+10.230.108.223 - - [04/Apr/2022 16:34:17] "GET /js/chunk-vendors.837c5f14.js HTTP/1.1" 200 -
+10.230.108.223 - - [04/Apr/2022 16:34:17] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:34:26] "[36mGET /img/pause.8569746c.svg HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:34:26] "[36mGET /img/play.aef4cc5e.svg HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:34:26] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.230.108.223 - - [04/Apr/2022 16:34:26] "GET /favicon.ico HTTP/1.1" 200 -
+10.230.108.223 - - [04/Apr/2022 16:34:26] "[35m[1mGET /media/stories.639fa561.mp3 HTTP/1.1[0m" 206 -
+10.230.108.223 - - [04/Apr/2022 16:36:34] "[36mGET /img/heartFull.8b238986.svg HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:37:18] "[36mGET /img/heartEmpty.32e83bb8.svg HTTP/1.1[0m" 304 -
+
+Carts
+2
+['Each other', 'Carts', 'The employees', 'Racks of cloths']
+The employees
+3
+['Each other', 'Carts', 'The employees', 'Racks of cloths']
+Racks of cloths
+{'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'options': ['A Gift card', 'A bottle of champaign', 'A bottle of wine', 'A sincere thank you'], 'correct': ['A bottle of champaign'], 'answers': ['A bottle of champaign']}
+0
+['A Gift card', 'A bottle of champaign', 'A bottle of wine', 'A sincere thank you']
+A Gift card
+1
+['A Gift card', 'A bottle of champaign', 'A bottle of wine', 'A sincere thank you']
+A bottle of champaign
+2
+['A Gift card', 'A bottle of champaign', 'A bottle of wine', 'A sincere thank you']
+A bottle of wine
+3
+['A Gift card', 'A bottle of champaign', 'A bottle of wine', 'A sincere thank you']
+A sincere thank you
+{'id': 'eff53cca', 'metadata': {'uuid': 'eff53cca', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36', 'meta_created': 1648671622373, 'logs': [{'type': 'info', 'message': 'Audio ended'}], 'time_paused': 0, 'times_paused': 0, 'digit_span_time_taken': 63802, 'digit_span_score': 6, 'started_quiz': 1648672081199, 'submitted_quiz': 1648672409296, 'time_taking_quiz': 328097}, 'questions': [{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'correct': '40 Years', 'option1': '5 Years', 'option2': '40 Years', 'option3': '20 Years', 'option4': '10 Years', 'answer': '40 Years'}, {'type': 'multiple_choice', 'question': 'What state do they live in?', 'correct': 'Washington', 'option1': 'Washington', 'option2': 'Indiana', 'option3': 'Minnesota', 'option4': 'Michigan', 'answer': 'Washington'}, {'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'correct': 'Going for walks and gardening', 'option1': 'Going for walks and gardening', 'option2': 'Playing bingo and jogging', 'option3': 'Going to church and birdwatching', 'option4': 'Playing chess and swimming', 'answer': 'Going for walks and gardening'}, {'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'correct': 'Beets', 'option1': 'Carrots', 'option2': 'Peas', 'option3': 'Beets', 'option4': 'Melons', 'answer': 'Carrots'}, {'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'correct': 'Make jams and preserves', 'option1': 'Make pies and cakes', 'option2': 'Make jams and preserves', 'option3': 'Donate it to chairty', 'option4': 'Give it away to friends and family', 'answer': 'Make jams and preserves'}, {'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'correct': 'Cousins', 'option1': 'Brothers', 'option2': 'Friends', 'option3': 'Classmates', 'option4': 'Cousins', 'answer': 'Cousins'}, {'type': 'multiple_choice', 'question': 'How old is Liam?', 'correct': '8 years old', 'option1': '5 years old', 'option2': '8 years old', 'option3': '6 years old', 'option4': '10 years old', 'answer': '8 years old'}, {'type': 'multiple_choice', 'question': "Who's car did they go in?", 'correct': 'Aunt Sally', 'option1': "Liam's mother", 'option2': "Liam's father", 'option3': 'Uncle Devin', 'option4': 'Aunt Sally', 'answer': 'Aunt Sally'}, {'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'correct': 'Riding school', 'option1': 'The mall', 'option2': 'Riding school', 'option3': 'The playground', 'option4': 'Cooking school', 'answer': 'Riding school'}, {'type': 'multiple_choice', 'question': 'When did their lesson start?', 'correct': "3 o'clock", 'option1': "2 o'clock", 'option2': "3 o'clock", 'option3': 'Noon', 'option4': "1 o'clock", 'answer': "3 o'clock"}, {'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'correct': 'Her brother', 'option1': 'Her nephiew', 'option2': 'Her mother', 'option3': 'Her brother', 'option4': 'Her sister', 'answer': 'Her brother'}, {'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'correct': 'Virginia', 'option1': 'Louisiana', 'option2': 'Connecticut', 'option3': 'Missouri', 'option4': 'Virginia', 'answer': 'Virginia'}, {'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'correct': 'The art musium', 'option1': 'The gallary', 'option2': 'The library', 'option3': 'The art musium', 'option4': 'The bookstore', 'answer': 'The art musium'}, {'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'correct': 'On her dresseer', 'option1': 'In her car', 'option2': 'On her dresseer', 'option3': 'On her couch', 'option4': 'In her brothers appartement', 'answer': 'On her dresseer'}, {'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'correct': '5 blocks', 'option1': '5 blocks', 'option2': '2 Blocks', 'option3': '1 Block', 'option4': '15 blocks', 'answer': '5 blocks'}, {'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'correct': 'Tuesday', 'option1': 'Tuesday', 'option2': 'Monday', 'option3': 'Thursday', 'option4': 'Friday', 'answer': 'Tuesday'}, {'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'correct': '75%', 'option1': '50%', 'option2': '15%', 'option3': '25%', 'option4': '75%', 'answer': '75%'}, {'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'correct': '30$', 'option1': '100$', 'option2': '30$', 'option3': '50$', 'option4': '60$', 'answer': '30$'}, {'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'correct': 'Each other', 'option1': 'Each other', 'option2': 'Carts', 'option3': 'The employees', 'option4': 'Racks of cloths', 'answer': 'Each other'}, {'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'correct': 'A bottle of champaign', 'option1': 'A Gift card', 'option2': 'A bottle of champaign', 'option3': 'A bottle of wine', 'option4': 'A sincere thank you', 'answer': 'A bottle of champaign'}]}
+{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'options': ['5 Years', '20 Years', '40 Years', '10 Years'], 'correct': ['40 Years'], 'answers': ['5 Years']}
+0
+['5 Years', '20 Years', '40 Years', '10 Years']
+5 Years
+1
+['5 Years', '20 Years', '40 Years', '10 Years']
+20 Years
+2
+['5 Years', '20 Years', '40 Years', '10 Years']
+40 Years
+3
+['5 Years', '20 Years', '40 Years', '10 Years']
+10 Years
+{'type': 'multiple_choice', 'question': 'What state do they live in?', 'options': ['Michigan', 'Minnesota', 'Washington', 'Indiana'], 'correct': ['Washington'], 'answers': ['Michigan']}
+0
+['Michigan', 'Minnesota', 'Washington', 'Indiana']
+Michigan
+1
+['Michigan', 'Minnesota', 'Washington', 'Indiana']
+Minnesota
+2
+['Michigan', 'Minnesota', 'Washington', 'Indiana']
+Washington
+3
+['Michigan', 'Minnesota', 'Washington', 'Indiana']
+Indiana
+{'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'options': ['Playing chess and swimming', 'Playing bingo and jogging', 'Going for walks and gardening', 'Going to church and birdwatching'], 'correct': ['Going for walks and gardening'], 'answers': ['Playing chess and swimming']}
+0
+['Playing chess and swimming', 'Playing bingo and jogging', 'Going for walks and gardening', 'Going to church and birdwatching']
+Playing chess and swimming
+1
+['Playing chess and swimming', 'Playing bingo and jogging', 'Going for walks and gardening', 'Going to church and birdwatching']
+Playing bingo and jogging
+2
+['Playing chess and swimming', 'Playing bingo and jogging', 'Going for walks and gardening', 'Going to church and birdwatching']
+Going for walks and gardening
+3
+['Playing chess and swimming', 'Playing bingo and jogging', 'Going for walks and gardening', 'Going to church and birdwatching']
+Going to church and birdwatching
+{'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'options': ['Melons', 'Beets', 'Peas', 'Carrots'], 'correct': ['Beets'], 'answers': ['Melons']}
+0
+['Melons', 'Beets', 'Peas', 'Carrots']
+Melons
+1
+['Melons', 'Beets', 'Peas', 'Carrots']
+Beets
+2
+['Melons', 'Beets', 'Peas', 'Carrots']
+Peas
+3
+['Melons', 'Beets', 'Peas', 'Carrots']
+Carrots
+{'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'options': ['Donate it to chairty', 'Make pies and cakes', 'Give it away to friends and family', 'Make jams and preserves'], 'correct': ['Make jams and preserves'], 'answers': ['Donate it to chairty']}
+0
+['Donate it to chairty', 'Make pies and cakes', 'Give it away to friends and family', 'Make jams and preserves']
+Donate it to chairty
+1
+['Donate it to chairty', 'Make pies and cakes', 'Give it away to friends and family', 'Make jams and preserves']
+Make pies and cakes
+2
+['Donate it to chairty', 'Make pies and cakes', 'Give it away to friends and family', 'Make jams and preserves']
+Give it away to friends and family
+3
+['Donate it to chairty', 'Make pies and cakes', 'Give it away to friends and family', 'Make jams and preserves']
+Make jams and preserves
+{'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'options': ['Classmates', 'Cousins', 'Brothers', 'Friends'], 'correct': ['Cousins'], 'answers': ['Classmates']}
+0
+['Classmates', 'Cousins', 'Brothers', 'Friends']
+Classmates
+1
+['Classmates', 'Cousins', 'Brothers', 'Friends']
+Cousins
+2
+['Classmates', 'Cousins', 'Brothers', 'Friends']
+Brothers
+3
+['Classmates', 'Cousins', 'Brothers', 'Friends']
+Friends
+{'type': 'multiple_choice', 'question': 'How old is Liam?', 'options': ['8 years old', '6 years old', '10 years old', '5 years old'], 'correct': ['8 years old'], 'answers': ['8 years old']}
+0
+['8 years old', '6 years old', '10 years old', '5 years old']
+8 years old
+1
+['8 years old', '6 years old', '10 years old', '5 years old']
+6 years old
+2
+['8 years old', '6 years old', '10 years old', '5 years old']
+10 years old
+3
+['8 years old', '6 years old', '10 years old', '5 years old']
+5 years old
+{'type': 'multiple_choice', 'question': "Who's car did they go in?", 'options': ["Liam's father", 'Aunt Sally', "Liam's mother", 'Uncle Devin'], 'correct': ['Aunt Sally'], 'answers': ["Liam's father"]}
+0
+["Liam's father", 'Aunt Sally', "Liam's mother", 'Uncle Devin']
+Liam's father
+1
+["Liam's father", 'Aunt Sally', "Liam's mother", 'Uncle Devin']
+Aunt Sally
+2
+["Liam's father", 'Aunt Sally', "Liam's mother", 'Uncle Devin']
+Liam's mother
+3
+["Liam's father", 'Aunt Sally', "Liam's mother", 'Uncle Devin']
+Uncle Devin
+{'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'options': ['The playground', 'Riding school', 'The mall', 'Cooking school'], 'correct': ['Riding school'], 'answers': ['The playground']}
+0
+['The playground', 'Riding school', 'The mall', 'Cooking school']
+The playground
+1
+['The playground', 'Riding school', 'The mall', 'Cooking school']
+Riding school
+2
+['The playground', 'Riding school', 'The mall', 'Cooking school']
+The mall
+3
+['The playground', 'Riding school', 'The mall', 'Cooking school']
+Cooking school
+{'type': 'multiple_choice', 'question': 'When did their lesson start?', 'options': ['Noon', "3 o'clock", "2 o'clock", "1 o'clock"], 'correct': ["3 o'clock"], 'answers': ['Noon']}
+0
+['Noon', "3 o'clock", "2 o'clock", "1 o'clock"]
+Noon
+1
+['Noon', "3 o'clock", "2 o'clock", "1 o'clock"]
+3 o'clock
+2
+['Noon', "3 o'clock", "2 o'clock", "1 o'clock"]
+2 o'clock
+3
+['Noon', "3 o'clock", "2 o'clock", "1 o'clock"]
+1 o'clock
+{'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'options': ['Her sister', 'Her nephiew', 'Her mother', 'Her brother'], 'correct': ['Her brother'], 'answers': ['Her sister']}
+0
+['Her sister', 'Her nephiew', 'Her mother', 'Her brother']
+Her sister
+1
+['Her sister', 'Her nephiew', 'Her mother', 'Her brother']
+Her nephiew
+2
+['Her sister', 'Her nephiew', 'Her mother', 'Her brother']
+Her mother
+3
+['Her sister', 'Her nephiew', 'Her mother', 'Her brother']
+Her brother
+{'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'options': ['Virginia', 'Louisiana', 'Connecticut', 'Missouri'], 'correct': ['Virginia'], 'answers': ['Virginia']}
+0
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Virginia
+1
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Louisiana
+2
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Connecticut
+3
+['Virginia', 'Louisiana', 'Connecticut', 'Missouri']
+Missouri
+{'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'options': ['The art musium', 'The gallary', 'The bookstore', 'The library'], 'correct': ['The art musium'], 'answers': ['The art musium']}
+0
+['The art musium', 'The gallary', 'The bookstore', 'The library']
+The art musium
+1
+['The art musium', 'The gallary', 'The bookstore', 'The library']
+The gallary
+2
+['The art musium', 'The gallary', 'The bookstore', 'The library']
+The bookstore
+3
+['The art musium', 'The gallary', 'The bookstore', 'The library']
+The library
+{'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'options': ['On her dresseer', 'In her car', 'On her couch', 'In her brothers appartement'], 'correct': ['On her dresseer'], 'answers': ['On her dresseer']}
+0
+['On her dresseer', 'In her car', 'On her couch', 'In her brothers appartement']
+On her dresseer
+1
+['On her dresseer', 'In her car', 'On her couch', 'In her brothers appartement']
+In her car
+2
+['On her dresseer', 'In her car', 'On her couch', 'In her brothers appartement']
+On her couch
+3
+['On her dresseer', 'In her car', 'On her couch', 'In her brothers appartement']
+In her brothers appartement
+{'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'options': ['1 Block', '15 blocks', '5 blocks', '2 Blocks'], 'correct': ['5 blocks'], 'answers': ['1 Block']}
+0
+['1 Block', '15 blocks', '5 blocks', '2 Blocks']
+1 Block
+1
+['1 Block', '15 blocks', '5 blocks', '2 Blocks']
+15 blocks
+2
+['1 Block', '15 blocks', '5 blocks', '2 Blocks']
+5 blocks
+3
+['1 Block', '15 blocks', '5 blocks', '2 Blocks']
+2 Blocks
+{'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'options': ['Monday', 'Thursday', 'Tuesday', 'Friday'], 'correct': ['Tuesday'], 'answers': ['Monday']}
+0
+['Monday', 'Thursday', 'Tuesday', 'Friday']
+Monday
+1
+['Monday', 'Thursday', 'Tuesday', 'Friday']
+Thursday
+2
+['Monday', 'Thursday', 'Tuesday', 'Friday']
+Tuesday
+3
+['Monday', 'Thursday', 'Tuesday', 'Friday']
+Friday
+{'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'options': ['15%', '75%', '25%', '50%'], 'correct': ['75%'], 'answers': ['15%']}
+0
+['15%', '75%', '25%', '50%']
+15%
+1
+['15%', '75%', '25%', '50%']
+75%
+2
+['15%', '75%', '25%', '50%']
+25%
+3
+['15%', '75%', '25%', '50%']
+50%
+{'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'options': ['60$', '30$', '50$', '100$'], 'correct': ['30$'], 'answers': ['60$']}
+0
+['60$', '30$', '50$', '100$']
+60$
+1
+['60$', '30$', '50$', '100$']
+30$
+2
+['60$', '30$', '50$', '100$']
+50$
+3
+['60$', '30$', '50$', '100$']
+100$
+{'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'options': ['Each other', 'Carts', 'Racks of cloths', 'The employees'], 'correct': ['Each other'], 'answers': ['Each other']}
+0
+['Each other', 'Carts', 'Racks of cloths', 'The employees']
+Each other
+1
+['Each other', 'Carts', 'Racks of cloths', 'The employees']
+Carts
+2
+['Each other', 'Carts', 'Racks of cloths', 'The employees']
+Racks of cloths
+3
+['Each other', 'Carts', 'Racks of cloths', 'The employees']
+The employees
+{'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'options': ['A sincere thank you', 'A bottle of wine', 'A Gift card', 'A bottle of champaign'], 'correct': ['A bottle of champaign'], 'answers': ['A sincere thank you']}
+0
+['A sincere thank you', 'A bottle of wine', 'A Gift card', 'A bottle of champaign']
+A sincere thank you
+1
+['A sincere thank you', 'A bottle of wine', 'A Gift card', 'A bottle of champaign']
+A bottle of wine
+2
+['A sincere thank you', 'A bottle of wine', 'A Gift card', 'A bottle of champaign']
+A Gift card
+3
+['A sincere thank you', 'A bottle of wine', 'A Gift card', 'A bottle of champaign']
+A bottle of champaign
+{'id': '11618891', 'metadata': {'uuid': '11618891', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36', 'meta_created': 1649104484543, 'logs': [{'type': 'info', 'message': 'Audio ended'}], 'time_paused': 0, 'times_paused': 0, 'digit_span_time_taken': 73169, 'digit_span_score': 11, 'started_quiz': 1649104694376, 'submitted_quiz': 1649104754140, 'time_taking_quiz': 59764}, 'questions': [{'type': 'multiple_choice', 'question': 'How long have Jackson and Davies been friends?', 'correct': '40 Years', 'option1': '5 Years', 'option2': '20 Years', 'option3': '40 Years', 'option4': '10 Years', 'answer': '5 Years'}, {'type': 'multiple_choice', 'question': 'What state do they live in?', 'correct': 'Washington', 'option1': 'Michigan', 'option2': 'Minnesota', 'option3': 'Washington', 'option4': 'Indiana', 'answer': 'Michigan'}, {'type': 'multiple_choice', 'question': 'What are their favourite pastimes?', 'correct': 'Going for walks and gardening', 'option1': 'Playing chess and swimming', 'option2': 'Playing bingo and jogging', 'option3': 'Going for walks and gardening', 'option4': 'Going to church and birdwatching', 'answer': 'Playing chess and swimming'}, {'type': 'multiple_choice', 'question': 'Which Does Davies not grow?', 'correct': 'Beets', 'option1': 'Melons', 'option2': 'Beets', 'option3': 'Peas', 'option4': 'Carrots', 'answer': 'Melons'}, {'type': 'multiple_choice', 'question': 'What do they do with their harvest?', 'correct': 'Make jams and preserves', 'option1': 'Donate it to chairty', 'option2': 'Make pies and cakes', 'option3': 'Give it away to friends and family', 'option4': 'Make jams and preserves', 'answer': 'Donate it to chairty'}, {'type': 'multiple_choice', 'question': 'What relation do Liam and Robert have to each other?', 'correct': 'Cousins', 'option1': 'Classmates', 'option2': 'Cousins', 'option3': 'Brothers', 'option4': 'Friends', 'answer': 'Classmates'}, {'type': 'multiple_choice', 'question': 'How old is Liam?', 'correct': '8 years old', 'option1': '8 years old', 'option2': '6 years old', 'option3': '10 years old', 'option4': '5 years old', 'answer': '8 years old'}, {'type': 'multiple_choice', 'question': "Who's car did they go in?", 'correct': 'Aunt Sally', 'option1': "Liam's father", 'option2': 'Aunt Sally', 'option3': "Liam's mother", 'option4': 'Uncle Devin', 'answer': "Liam's father"}, {'type': 'multiple_choice', 'question': 'Where did they go in the car?', 'correct': 'Riding school', 'option1': 'The playground', 'option2': 'Riding school', 'option3': 'The mall', 'option4': 'Cooking school', 'answer': 'The playground'}, {'type': 'multiple_choice', 'question': 'When did their lesson start?', 'correct': "3 o'clock", 'option1': 'Noon', 'option2': "3 o'clock", 'option3': "2 o'clock", 'option4': "1 o'clock", 'answer': 'Noon'}, {'type': 'multiple_choice', 'question': 'Who was Lucy Carson visiting?', 'correct': 'Her brother', 'option1': 'Her sister', 'option2': 'Her nephiew', 'option3': 'Her mother', 'option4': 'Her brother', 'answer': 'Her sister'}, {'type': 'multiple_choice', 'question': 'Which state did she go visit?', 'correct': 'Virginia', 'option1': 'Virginia', 'option2': 'Louisiana', 'option3': 'Connecticut', 'option4': 'Missouri', 'answer': 'Virginia'}, {'type': 'multiple_choice', 'question': 'Where was she going did when she got lost?', 'correct': 'The art musium', 'option1': 'The art musium', 'option2': 'The gallary', 'option3': 'The bookstore', 'option4': 'The library', 'answer': 'The art musium'}, {'type': 'multiple_choice', 'question': 'Where did she leave the directions?', 'correct': 'On her dresseer', 'option1': 'On her dresseer', 'option2': 'In her car', 'option3': 'On her couch', 'option4': 'In her brothers appartement', 'answer': 'On her dresseer'}, {'type': 'multiple_choice', 'question': 'How many blocks did she have to walk north?', 'correct': '5 blocks', 'option1': '1 Block', 'option2': '15 blocks', 'option3': '5 blocks', 'option4': '2 Blocks', 'answer': '1 Block'}, {'type': 'multiple_choice', 'question': 'What day of the week did the annual sale start on?', 'correct': 'Tuesday', 'option1': 'Monday', 'option2': 'Thursday', 'option3': 'Tuesday', 'option4': 'Friday', 'answer': 'Monday'}, {'type': 'multiple_choice', 'question': 'How much were sporting goods marked down?', 'correct': '75%', 'option1': '15%', 'option2': '75%', 'option3': '25%', 'option4': '50%', 'answer': '15%'}, {'type': 'multiple_choice', 'question': 'How many dollars were jackets reduced by?', 'correct': '30$', 'option1': '60$', 'option2': '30$', 'option3': '50$', 'option4': '100$', 'answer': '60$'}, {'type': 'multiple_choice', 'question': 'What were the crowds of shoppers bumping into?', 'correct': 'Each other', 'option1': 'Each other', 'option2': 'Carts', 'option3': 'Racks of cloths', 'option4': 'The employees', 'answer': 'Each other'}, {'type': 'multiple_choice', 'question': 'What did each employee receive after closing?', 'correct': 'A bottle of champaign', 'option1': 'A sincere thank you', 'option2': 'A bottle of wine', 'option3': 'A Gift card', 'option4': 'A bottle of champaign', 'answer': 'A sincere thank you'}]}10.230.108.223 - - [04/Apr/2022 16:38:46] "POST /api/senddata HTTP/1.1" 200 -
+10.230.108.223 - - [04/Apr/2022 16:38:46] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:38:47] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:38:47] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:38:47] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:38:47] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:57:12] "[36mGET / HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:57:12] "[36mGET /css/app.eaa594f5.css HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:57:12] "[36mGET /js/app.44c35812.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:57:12] "[36mGET /js/chunk-vendors.837c5f14.js HTTP/1.1[0m" 304 -
+10.230.108.223 - - [04/Apr/2022 16:57:13] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -

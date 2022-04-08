@@ -1,0 +1,24 @@
+uuid,user_agent,meta_created,logs,time_paused,times_paused,digit_span_time_taken,digit_span_score,started_quiz,submitted_quiz,time_taking_quiz
+eff53cca,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",1648671622373,"[{'type': 'info', 'message': 'Audio ended'}]",0,0,63802,6,1648672081199,1648672409296,328097
+
+type,question,correct,option1,option2,option3,option4,answer
+multiple_choice,How long have Jackson and Davies been friends?,40 Years,5 Years,40 Years,20 Years,10 Years,40 Years
+multiple_choice,What state do they live in?,Washington,Washington,Indiana,Minnesota,Michigan,Washington
+multiple_choice,What are their favourite pastimes?,Going for walks and gardening,Going for walks and gardening,Playing bingo and jogging,Going to church and birdwatching,Playing chess and swimming,Going for walks and gardening
+multiple_choice,Which Does Davies not grow?,Beets,Carrots,Peas,Beets,Melons,Carrots
+multiple_choice,What do they do with their harvest?,Make jams and preserves,Make pies and cakes,Make jams and preserves,Donate it to chairty,Give it away to friends and family,Make jams and preserves
+multiple_choice,What relation do Liam and Robert have to each other?,Cousins,Brothers,Friends,Classmates,Cousins,Cousins
+multiple_choice,How old is Liam?,8 years old,5 years old,8 years old,6 years old,10 years old,8 years old
+multiple_choice,Who's car did they go in?,Aunt Sally,Liam's mother,Liam's father,Uncle Devin,Aunt Sally,Aunt Sally
+multiple_choice,Where did they go in the car?,Riding school,The mall,Riding school,The playground,Cooking school,Riding school
+multiple_choice,When did their lesson start?,3 o'clock,2 o'clock,3 o'clock,Noon,1 o'clock,3 o'clock
+multiple_choice,Who was Lucy Carson visiting?,Her brother,Her nephiew,Her mother,Her brother,Her sister,Her brother
+multiple_choice,Which state did she go visit?,Virginia,Louisiana,Connecticut,Missouri,Virginia,Virginia
+multiple_choice,Where was she going did when she got lost?,The art musium,The gallary,The library,The art musium,The bookstore,The art musium
+multiple_choice,Where did she leave the directions?,On her dresseer,In her car,On her dresseer,On her couch,In her brothers appartement,On her dresseer
+multiple_choice,How many blocks did she have to walk north?,5 blocks,5 blocks,2 Blocks,1 Block,15 blocks,5 blocks
+multiple_choice,What day of the week did the annual sale start on?,Tuesday,Tuesday,Monday,Thursday,Friday,Tuesday
+multiple_choice,How much were sporting goods marked down?,75%,50%,15%,25%,75%,75%
+multiple_choice,How many dollars were jackets reduced by?,30$,100$,30$,50$,60$,30$
+multiple_choice,What were the crowds of shoppers bumping into?,Each other,Each other,Carts,The employees,Racks of cloths,Each other
+multiple_choice,What did each employee receive after closing?,A bottle of champaign,A Gift card,A bottle of champaign,A bottle of wine,A sincere thank you,A bottle of champaign
