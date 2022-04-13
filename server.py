@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, send_from_directory, send_file
 import json
 import csv
 import random
+import shutil
 
 app = Flask(__name__)
 
@@ -59,6 +60,11 @@ def rootdir():
 @app.route('/<path:path>')
 def home(path):
   return send_from_directory('dist', path)
+
+@app.route('/results')
+def results(path):
+  shutil.make_archive('results.zip', 'zip', 'db')
+  return send_file('results.zip')
 
 if __name__ == '__main__':
   app.run(host="0.0.0.0", port="80")
