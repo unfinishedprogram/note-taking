@@ -62,8 +62,8 @@ def home(path):
   return send_from_directory('dist', path)
 
 @app.route('/results')
-def results(path):
-  shutil.make_archive('results.zip', 'zip', 'db')
+def results():
+  shutil.make_archive('results', 'zip', 'db')
   return send_file('results.zip')
 
 if __name__ == '__main__':
