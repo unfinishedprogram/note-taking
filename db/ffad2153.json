@@ -1,0 +1,224 @@
+{
+"id": "ffad2153",
+"metadata": {
+"uuid": "ffad2153",
+"user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+"meta_created": 1649881303996,
+"logs": [
+{
+"type": "info",
+"message": "Audio ended"
+}
+],
+"note_method": "written",
+"time_paused": 0,
+"times_paused": 0,
+"digit_span_time_taken": 212706,
+"digit_span_score": 17,
+"started_quiz": 1649882572747,
+"submitted_quiz": 1649882751821,
+"time_taking_quiz": 179074
+},
+"questions": [
+{
+"type": "multiple_choice",
+"question": "How long have Jackson and Davies been friends?",
+"correct": "40 Years",
+"option1": "10 Years",
+"option2": "40 Years",
+"option3": "20 Years",
+"option4": "5 Years",
+"answer": "10 Years"
+},
+{
+"type": "multiple_choice",
+"question": "What state do they live in?",
+"correct": "Washington",
+"option1": "Washington",
+"option2": "Indiana",
+"option3": "Michigan",
+"option4": "Minnesota",
+"answer": "Washington"
+},
+{
+"type": "multiple_choice",
+"question": "What are their favourite pastimes?",
+"correct": "Going for walks and gardening",
+"option1": "Playing chess and swimming",
+"option2": "Playing bingo and jogging",
+"option3": "Going for walks and gardening",
+"option4": "Going to church and birdwatching",
+"answer": "Going for walks and gardening"
+},
+{
+"type": "multiple_choice",
+"question": "Which does Davies not grow?",
+"correct": "Beets",
+"option1": "Carrots",
+"option2": "Beets",
+"option3": "Melons",
+"option4": "Peas",
+"answer": "Beets"
+},
+{
+"type": "multiple_choice",
+"question": "What do they do with their harvest?",
+"correct": "Make jams and preserves",
+"option1": "Donate it to chairty",
+"option2": "Make jams and preserves",
+"option3": "Give it away to friends and family",
+"option4": "Make pies and cakes",
+"answer": "Make jams and preserves"
+},
+{
+"type": "multiple_choice",
+"question": "What relation do Liam and Robert have to each other?",
+"correct": "Cousins",
+"option1": "Brothers",
+"option2": "Classmates",
+"option3": "Friends",
+"option4": "Cousins",
+"answer": "Cousins"
+},
+{
+"type": "multiple_choice",
+"question": "How old is Liam?",
+"correct": "8 years old",
+"option1": "10 years old",
+"option2": "5 years old",
+"option3": "6 years old",
+"option4": "8 years old",
+"answer": "6 years old"
+},
+{
+"type": "multiple_choice",
+"question": "Who's car did they go in?",
+"correct": "Aunt Sally",
+"option1": "Aunt Sally",
+"option2": "Liam's mother",
+"option3": "Uncle Devin",
+"option4": "Liam's father",
+"answer": "Aunt Sally"
+},
+{
+"type": "multiple_choice",
+"question": "Where did they go in the car?",
+"correct": "Riding school",
+"option1": "The playground",
+"option2": "Cooking school",
+"option3": "Riding school",
+"option4": "The mall",
+"answer": "Riding school"
+},
+{
+"type": "multiple_choice",
+"question": "When did their lesson start?",
+"correct": "3 o'clock",
+"option1": "1 o'clock",
+"option2": "Noon",
+"option3": "2 o'clock",
+"option4": "3 o'clock",
+"answer": "3 o'clock"
+},
+{
+"type": "multiple_choice",
+"question": "Who was Lucy Carson visiting?",
+"correct": "Her brother",
+"option1": "Her nephiew",
+"option2": "Her mother",
+"option3": "Her sister",
+"option4": "Her brother",
+"answer": "Her mother"
+},
+{
+"type": "multiple_choice",
+"question": "Which state did she visit?",
+"correct": "Virginia",
+"option1": "Missouri",
+"option2": "Connecticut",
+"option3": "Virginia",
+"option4": "Louisiana",
+"answer": "Virginia"
+},
+{
+"type": "multiple_choice",
+"question": "Where was she going did when she got lost?",
+"correct": "The art musium",
+"option1": "The bookstore",
+"option2": "The art musium",
+"option3": "The gallary",
+"option4": "The library",
+"answer": "The art musium"
+},
+{
+"type": "multiple_choice",
+"question": "Where did she leave the directions?",
+"correct": "On her dresseer",
+"option1": "On her couch",
+"option2": "In her brothers appartement",
+"option3": "In her car",
+"option4": "On her dresseer",
+"answer": "On her dresseer"
+},
+{
+"type": "multiple_choice",
+"question": "How many blocks did she have to walk north?",
+"correct": "5 blocks",
+"option1": "2 Blocks",
+"option2": "1 Block",
+"option3": "5 blocks",
+"option4": "15 blocks",
+"answer": "5 blocks"
+},
+{
+"type": "multiple_choice",
+"question": "What day of the week did the annual sale start on?",
+"correct": "Tuesday",
+"option1": "Friday",
+"option2": "Tuesday",
+"option3": "Monday",
+"option4": "Thursday",
+"answer": "Tuesday"
+},
+{
+"type": "multiple_choice",
+"question": "How much were sporting goods marked down?",
+"correct": "75%",
+"option1": "50%",
+"option2": "75%",
+"option3": "25%",
+"option4": "15%",
+"answer": "75%"
+},
+{
+"type": "multiple_choice",
+"question": "How many dollars were jackets reduced by?",
+"correct": "30$",
+"option1": "50$",
+"option2": "60$",
+"option3": "30$",
+"option4": "100$",
+"answer": "30$"
+},
+{
+"type": "multiple_choice",
+"question": "What were the crowds of shoppers bumping into?",
+"correct": "Each other",
+"option1": "The employees",
+"option2": "Racks of cloths",
+"option3": "Each other",
+"option4": "Carts",
+"answer": "Racks of cloths"
+},
+{
+"type": "multiple_choice",
+"question": "What did each employee receive after closing?",
+"correct": "A bottle of champaign",
+"option1": "A Gift card",
+"option2": "A bottle of champaign",
+"option3": "A sincere thank you",
+"option4": "A bottle of wine",
+"answer": "A bottle of champaign"
+}
+]
+}
